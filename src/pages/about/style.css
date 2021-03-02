@@ -1,3 +1,28 @@
-.about {
-    background-color: salmon;
+body {
+    background-color:#ccc5de;
 }
+
+nav, .col-md-8 {
+    background-color: rgb(248, 239, 239);
+    color: black;
+}
+
+/* Styles the navbar links when user hovers over them */
+.nav-link:hover {
+    font-weight: bold;
+}
+
+/* Creates space between images */
+img{
+    padding: 10px;
+}
+
+
+/* Fixes content overflow and centers main content on small screens */
+@media screen and (max-width: 400px) {
+    .col-md-8 {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
